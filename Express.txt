@@ -1,0 +1,5 @@
+Express is a minimal and flexible web framework for http://Node.js.
+
+It provides the routing layer and HTTP utility layer on top of plain http://Node.js. It makes it easy to handle requests, responses, routes, and middleware.
+
+In short: http://Node.js alone can create a server but it's low-level and messy. Express simplifies it for building APIs and web apps quickly.

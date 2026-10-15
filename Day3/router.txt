@@ -1,0 +1,13 @@
+Router in Express:
+
+express.Router() is a mini application used to group related routes together.
+
+we can think of it as a modular system. Instead of putting all routes in your main server.js file, we create separate router files for different parts of our app.
+
+For example, we can have one router for user-related routes like /users, /users/login and another for product-related routes like /products, /products/:id.
+
+Each router can have its own middleware, which will only apply to routes inside that router.
+
+It helps keep our code clean, organized, and maintainable as our application grows.
+
+we create a router in a separate file, define routes on it, and then import and mount it in our main app file.

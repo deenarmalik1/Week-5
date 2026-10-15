@@ -1,0 +1,36 @@
+Localhost means our own computer
+
+When we run a web server on our laptop, we can access that server using Localhost
+
+localhost is a hostname that usually refers to our own computer
+
+it commonly resolves to the IP address 127.0.0.1 for IPv4
+
+Therefore, these addresses usually take us to the same local server
+
+. http://localhost:3000
+here, 3000 is the port number on which our server is listening
+
+
+What is a Remote Server?:
+
+A remote server is a computer that we access over a network,such as the internet
+
+for eg: if we want to build a school portal using Node.js and we want students and teachers to access it from their homes, we cannot simply tell everyone to visit http://localhost:3000 on their computers. that address refers to each persons own computer
+instead we can deploy our school portal to a remote server
+A remote server could be a computer operated by a hosting company
+
+How does it work?:
+
+Step 1 : We develop our school portal on our laptop
+
+Step 2 : We upload our application to a remote server
+
+Step 3 : The remote server runs our node.js application
+
+Step 4 : We configure the necessary network access and domain name
+
+Step 5 : Students can visit our website using an address such as :
+https://myschool.example.Computer
+
+Now students can access our school portal from different locations provided the server and website are available

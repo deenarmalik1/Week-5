@@ -1,0 +1,15 @@
+In Express, you use the res object to send responses back to the client, and Express can send data in different formats depending on what the client needs.
+
+1. JSON: res.json({ key: 'value' })
+Sets Content-Type to application/json automatically. Used for APIs.
+
+2. Text: res.send('plain text') or res.type('txt').send('text')
+If you pass a string, Express treats it as text/html by default. Use type() for pure text.
+
+3. HTML: res.send('<h1>HTML</h1>') or res.sendFile()
+String with HTML tags is sent as text/html. For file, use res.sendFile(path).
+
+4. Other helpers:
+res.status(code).send() - set status code
+res.redirect('/path') - redirect
+res.download() - send file as download

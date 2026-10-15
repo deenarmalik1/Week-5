@@ -1,0 +1,14 @@
+Modules in http://Node.js / Express:
+
+A module is a reusable piece of code kept in a separate file. Each file in http://Node.js is treated as a separate module.
+
+The purpose of modules is to organize code, avoid a single large file, and allow reusability. Instead of writing everything in one file, you break logic into small files like routes, controllers, models, middleware.
+
+There are two main types:
+1.  Core Modules: Built-in with http://Node.js, like fs, path, http.
+2.  Local Modules: Files you create yourself, like userRoutes.js or authMiddleware.js.
+3.  Third-party Modules: Packages installed from npm, like express, mongoose.
+
+You export functionality from one file using module.exports and import it into another file using require().
+
+This is how Express projects stay clean and maintainable.

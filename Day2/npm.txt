@@ -1,0 +1,12 @@
+npm stands for Node Package Manager.
+
+It is the default package manager that comes bundled with http://Node.js.
+
+Its core functions are:
+
+1.  Registry access: It connects your machine to a central online registry where millions of packages are published and stored.
+2.  Dependency management: It reads your project's manifest and ensures all required external packages are downloaded and linked correctly.
+3.  Version control: It handles versioning, allowing you to install specific versions and manage updates or conflicts.
+4.  Script execution: It provides a way to run defined automation tasks for your project.
+
+In short, it is the tool that lets you find, install, share, and manage packages in a http://Node.js project.

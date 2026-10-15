@@ -1,0 +1,13 @@
+express.json():
+It is built-in middleware that parses incoming requests with a JSON payload.
+
+It looks at requests where Content-Type is application/json, parses the JSON string into a JavaScript object, and puts it in req.body.
+
+Without it, req.body would be undefined for JSON requests.
+
+express.urlencoded():
+It parses incoming requests with URL-encoded payloads.
+
+This is the data format sent by HTML forms when submitted. It parses the form data into a JavaScript object and puts it in req.body.
+
+It takes an option `extended: true/false which decides if it can parse rich nested objects or just simple key-value pairs.

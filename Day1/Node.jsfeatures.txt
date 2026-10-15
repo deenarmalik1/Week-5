@@ -1,0 +1,50 @@
+Key features of Node.js
+
+1: Asynchronous and Non-blocking I/O :
+
+Node.js can handle other tasks while waiting for operations such as reading files or recieving database results to finish
+eg: A server can process another users request while waiting for a file to be reading
+
+2: Single-threaded Architecture :
+
+Node.js uses a main JavaScript thread to execute JavaScript code. it uses an event loop and other system resources to handle many operations efficiently
+eg: a server can manage requests from many users without creating a seperate javaScript thread for every request
+
+3: Event driven architecture :
+
+Node.js responds to events such as incoming requests,completed file reads, and recieved data
+eg: When a client sends a request to our server, Node.js can execute callback or handler to process it.
+
+4: Fast execution : 
+
+Node.js uses Googles V8 JavaScript engine, which complies JavaScript into machine code for efficient execution
+eg: it can execute backend JavaScript code quickly for web applications
+
+5: Cross-Platform :
+
+Node.js runs on different operating systems, including:
+* Windows
+* MacOS
+* Linux
+
+6: Node Package Manager(npm):
+
+NPM lets developers install and manage reusable packages created by other developers
+
+7: Built-in modules :
+
+Node.js provides built-in modules for common tasks, so we dont need to install seperate packages for eveything
+eg: 
+Module      Purpose
+------      --------
+http        Create HTTP servers
+
+fs          Read and write files
+
+path        Work with file paths
+
+os          Get operating system information
+
+8: Supports JavaScript on the backend:
+
+We can use javaScript for both frontend and backend

@@ -1,0 +1,11 @@
+Route parameters are dynamic parts of a URL path that act as placeholders for values.
+
+They let us create one route that can handle many different URLs by extracting the variable data directly from the path.
+
+We define them by adding a colon before the name in the route path.
+
+Express captures the value from the actual URL requested and makes it available in the req.params object.
+
+They are essential for creating RESTful APIs to identify specific resources like a user by ID.
+
+Multiple parameters can be used in a single route path.

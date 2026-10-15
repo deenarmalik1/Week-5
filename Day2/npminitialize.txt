@@ -1,0 +1,27 @@
+To initialize npm in our project:
+
+1. Open our terminal
+2. Go to our project folder:
+cd-our-project-folder
+
+3. Run:
+npm init
+
+It will ask you questions (name, version, description, entry point, etc). Press Enter to answer.
+
+Shortcut - auto init:
+npm init -y
+
+This creates package.json instantly with default values.
+What is Package.json and Package-lock.json? :
+
+package.json:
+
+It is the manifest file of your project. It is the human-editable file that defines your project identity, lists what dependencies your project needs, defines automation scripts, and specifies version ranges that are acceptable.
+
+package-lock.json:
+
+It is the exact dependency tree snapshot. It is auto-generated and records the precise version of every package and sub-package that was actually installed.
+
+Purpose: It guarantees that every install, on every machine, gets the exact same versions, ensuring consistent and reproducible builds.
+

@@ -1,0 +1,15 @@
+Middleware execution follows the order in which it is defined in your code.
+
+Express maintains a stack and runs middleware sequentially from top to bottom.
+
+When a request arrives, the first middleware runs. If it calls next(), control passes to the next middleware in the stack.
+
+If a middleware does not call next() and does not end the response, the request cycle stops there.
+
+Global middleware defined with app.use() at the top runs before any route handlers.
+
+Route-specific middleware runs only when its path matches.
+
+Error-handling middleware is skipped unless an error is thrown and runs after regular middleware.
+
+So, the order you write middleware is critical for functionality like authentication needing to run before protected routes.

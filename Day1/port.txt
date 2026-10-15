@@ -1,0 +1,31 @@
+A Port is a logical communication endpoint on a computer that helps direct network traffic to the correct application or service.
+
+It is like a particular apartment number in a large apartment building
+
+The port number helps the computer direct the incoming network traffic to the appropriate service.
+
+Default Port:
+
+A default port is the standard port number associated with a particular network protocol or service.
+
+For example : 
+
+Service     Default port    Purpose
+ HTTP           80         Standard port for ordinary web traffic
+ HTTPS          443        Standard port for secure web traffic
+ SSH            22         Commonly used for secure remote access
+ FTP            21         Used for FTP control connections
+ MySQL          3306       Commonly used by MySQL databases
+
+
+ When we visit http://example.com  
+  our browser normally connects to port 80
+  When we visit https://example.com 
+  our browser normally connects to port 43
+
+
+  Custom port:
+
+  A custom port is a port number we chose for our application instead of using a service's standard port 
+  eg : "server.listen(3000)" , the server refers to our server, listen() tells the server to start listening for incoming connections
+  and 3000 is the port number we have selected.....We can change the port number to 5000 or to any other ports

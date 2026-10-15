@@ -1,0 +1,19 @@
+Middleware types :
+
+1. Application-Level Middleware:
+Bound to the app instance using app.use() or app.METHOD(). Runs for every request or for specific routes.
+
+2. Router-Level Middleware:
+Works the same as application-level but is bound to an instance of express.Router(). Used to organize routes into modular groups.
+
+3. Built-in Middleware:
+Middleware that comes included with Express itself. Like express.json() for parsing JSON bodies, express.urlencoded(), and express.static() for serving static files.
+
+4. Third-Party Middleware:
+Middleware created by others and installed via npm. You install and use it in your app. Examples are morgan for logging, cors for cross-origin requests, and cookie-parser.
+
+5. Error-Handling Middleware:
+Special middleware that takes four arguments instead of three. Express recognizes it as an error handler. It runs only when an error occurs in the app.
+
+6. Custom Middleware:
+Middleware you create yourself for your specific needs, like authentication checks or custom loggers.

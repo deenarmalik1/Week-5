@@ -1,0 +1,15 @@
+res.render() is used to render an EJS page with dynamic data.
+
+It takes two main things:
+
+1. The first argument is the view name:
+This is the name of the `.ejs` file inside our views folder, without the extension. Express will automatically find that file.
+
+2. The second argument is the data object:
+This is a JavaScript object that contains all the data we want to send to the page. Each key in this object becomes a variable that we can access inside the EJS file.
+
+For example, if we pass an object with a key user, then inside the EJS file we can directly use user to display its properties.
+
+we can pass any type of data in this object: a single value, an object, an array, or multiple variables at once. Whatever we pass here will be available for rendering in the template.
+
+Inside the EJS file, the data is then displayed using EJS syntax.

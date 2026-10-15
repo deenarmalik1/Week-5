@@ -1,0 +1,9 @@
+express.static() is a built-in middleware for serving static files.
+
+Static files are files that don't change dynamically, like HTML, CSS, JavaScript files, images, and fonts.
+
+It takes a folder path as input and makes all files inside that folder directly accessible via URL.
+
+So instead of creating a separate route for each image or CSS file, this middleware serves them automatically.
+
+The browser can request a file directly, and if it exists in that folder, Express sends it without you needing to write any route logic.

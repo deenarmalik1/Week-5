@@ -1,0 +1,3 @@
+Node.js is a runtime environment that allows us to run javascript code outside a web browser
+
+Normally, Javascript runs inside a browser like chrome, with Node.js, we can use JavaScript to build servers, APIs, backend applications, and much more

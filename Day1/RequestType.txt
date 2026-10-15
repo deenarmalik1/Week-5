@@ -1,0 +1,46 @@
+A server recieves request from clients such as web browsers,mobile apps, or other computers
+
+These requests ask the server to provide information, save data , or perform an action
+
+In web development, servers commonly recieve HTTP requests...Here are the 5 main request types:
+
+1 : GET request -- Retrieve data  :
+  Used to ask the server for information.
+  eg: Opening the school website to see the list of the students
+
+2 : POST request -- Send new data :
+   Used to send information to the server, often to create something new.
+   eg: Adding a new student to our school portal
+
+3 : PUT request  -- Replace existing data
+   Used to replace an existing record
+   eg: Replacing all the details of a students profile
+
+4 : PATCH request -- Update part of the data
+   eg: Changing only a students name without changing their grade
+
+5 : DELETE request -- Remove data
+   eg: Removing a student from the school portal
+
+Structure of HTTP requests : 
+
+     An HTTP request generally contains 4 main parts :
+
+   1 : Request line :
+     GET /students HTTP/1.1 
+     (Specifies the method, URL path, and HTTP version)
+
+   2 : Headers :
+     Host: localhost:3000
+     Accept: text/html
+     (provides additional information about the request)
+
+   3 : Blank line :
+      Seperate the headers from the request body
+
+   4 : Request body (optional)
+      {
+        "name": "Arun"
+        "grade": 10
+      }
+      (contains data send to the server, commonly with POST or PUT requests)

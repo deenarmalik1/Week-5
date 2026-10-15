@@ -1,0 +1,7 @@
+How route order effect behaviour?
+
+Express checks routes top to bottom, in the order we define them. The first matching route wins.
+
+So if we define a generic route like /:id or / before a specific one like /about, the generic one will catch the request first and /about will never be reached.
+
+So we should always put specific routes first, generic/wildcard routes last one

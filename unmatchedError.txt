@@ -1,0 +1,9 @@
+By default Express sends its own 404 HTML response if no route matches.
+
+But it won't be JSON or custom message. So we must handle it ourself.
+
+How: Add a catch-all handler at the very end of all your routes.
+
+Express checks routes top to bottom. If nothing matched above, it will fall to this last handler. There we send res.status(404).send().
+
+If we don't add it, client gets default Cannot GET /path message.

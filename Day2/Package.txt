@@ -1,0 +1,7 @@
+In http://Node.js, a package is a self-contained unit of functionality.
+
+It is a directory that includes code and a manifest file named http://package.json that describes its identity, version, and dependencies.
+
+Its purpose is modularity. It allows code to be shared, reused, and version-controlled independently of the main project.
+
+It is managed through a package registry and a package manager that resolves and installs its dependencies.

@@ -1,0 +1,12 @@
+There are 3 main types of modules in http://Node.js:
+
+1. Core Modules:
+These are built-in modules that come with http://Node.js. we don't need to install them. Node provides them for common tasks like handling files, paths, and web servers.
+
+2. Local Modules:
+These are modules that we create yourself. Each file we create in our project is a local module. we use them to split our code into smaller, manageable pieces like routes, controllers, or utility functions.
+
+3. Third-Party Modules:
+These are modules created by other developers and available through npm. we need to install them using npm before using them. Express, Mongoose, Dotenv are examples.
+
+All three types work the same way, we import them and use their functionality, but they differ in where they come from.

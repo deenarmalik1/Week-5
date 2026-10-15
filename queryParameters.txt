@@ -1,0 +1,9 @@
+Query parameters are key-value pairs added after a question mark ? at the end of a URL.
+
+They are not part of the route path itself, but are used to provide extra information like filters, searches, sorting, or pagination.
+
+Unlike route parameters which identify a specific resource, query parameters are optional and are used to modify the request for a resource.
+
+Multiple query parameters are separated by & symbols.
+
+Express automatically parses them and makes them available in the req.query object.

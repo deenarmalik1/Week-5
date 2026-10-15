@@ -1,0 +1,8 @@
+In Node.js, routing means deciding what response to send based on the URL requested by the user.
+
+For Example:
+
+* / -> Home Page
+* /about -> About Page
+* /contact -> Contact Page
+* Any other URL -> 404 Not Found

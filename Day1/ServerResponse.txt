@@ -1,0 +1,21 @@
+A server sends back an HTTP response to the client after recieving and processing an HTTP request.
+
+The response tells the client whether the request succeeded and may contain the requested information
+
+For example, When we open our school portal and request a list of students, the server can send back the students list
+
+Structure of HTTP responses :
+
+An HTTP response has three main parts:
+
+   1 : Status line :
+      HTTP/1.1 200 OK
+      This tells the client the request has succeeded.
+
+   2 : Response headers :
+      Content-Type: text/plain
+      These describe the response such as format of its content
+
+   3 : Response body :
+      List of students
+      This contains the actual information sent back, when a body is included

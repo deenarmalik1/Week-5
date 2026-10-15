@@ -1,0 +1,11 @@
+Middleware is a function that sits in the middle of the request-response cycle.
+
+It has access to the request object, response object, and the next function.
+
+When a request comes in, Express runs middleware functions in the order they are defined before reaching the final route handler.
+
+It can execute code, modify request and response objects, end the request-response cycle, or call the next middleware in the stack.
+
+It is used for tasks like logging, authentication, parsing request bodies, and handling errors.
+
+If next() is not called, the request gets stuck and never reaches the route handler.

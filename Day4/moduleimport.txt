@@ -1,0 +1,27 @@
+
+
+ 1. Import using require() (CommonJS)
+This is the default system in http://Node.js.
+We use require() to import a module. It loads the file synchronously. It is used in most older http://Node.js and Express projects.
+
+ 2. Export using http://module.exports
+To make something available from your file, you export it using module.exports.
+Whatever we assign to module.exports can be imported in another file with require().
+
+ 3. Intro to ES Modules (import, export) - when to use
+ES Modules is the new, modern standard for JavaScript. You use import and export keywords.
+
+When to use:
+- When your project has "type": "module" in package.json
+- In modern frameworks like React, Vue, http://Next.js
+- When you want features like tree-shaking, named imports/exports, and async loading.
+
+ 4. Difference between CommonJS and ES Modules
+Feature | CommonJS (CJS) | ES Modules (ESM)
+Syntax | require() and module.exports | import and export
+Loading | Synchronous | Asynchronous
+Default in | http://Node.js (old standard) | Browser + Modern http://Node.js
+File Extension | .js | .js or .mjs
+Enabled by | Default in http://Node.js | Needs "type": "module" in http://package.json
+In short:
+We should Use CommonJS for traditional Express backend projects. Use ES Modules for modern JavaScript and frontend frameworks.

@@ -1,0 +1,15 @@
+In Express:
+
+app.get(path, handler): Handles browser page loads and data fetching. Most common.
+
+app.post(path, handler): Handles form submissions, JSON create requests. Needs express.json() middleware.
+
+app.put(path, handler): Handles full update. e.g. update full user profile.
+
+app.patch(path, handler): Handles partial update. e.g. update only email.
+
+app.delete(path, handler): Handles delete. e.g. delete user by ID.
+
+app.all(path, handler): Runs for any method (GET, POST etc) on that path. Used for middleware or access control.
+
+app.use(path, handler): Not a method handler, but catches all methods and sub-paths. Used for middleware.

@@ -1,0 +1,31 @@
+A server is a computer or software that provides data,services or resources to other computers or applications when they request them
+How does a web server work: 
+
+Suppose we open Youtube in our browser
+
+Step1 : We enter the website address
+
+Step 2 : Our browser sends request to youtubes server.
+
+Step 3 : The server process the request
+
+Step 4 : The server sends a response to our browser
+
+Step 5 : Our browser displays the web page
+
+How can a Computer become a server(Beginner level):
+
+Any computer can become a server, We can use Node.js to create a web server
+
+first we need to create a file called server.js and type the below code in it:
+
+const http = require("http")
+
+const server = http.createServer((req,res) => {
+    res.end("Hello World")
+})
+
+server.listen(3000)
+
+Then open the terminal and run node server.js
+then eventually our computer runs a web server on port 3000

@@ -1,0 +1,5 @@
+An API (application Programming interface) is a way for two software applications to communicate with each other
+
+In web development, an API allows a client such as browser or mobile app to request data or services from a server
+
+The API acts as a communication bridge between the app and the server

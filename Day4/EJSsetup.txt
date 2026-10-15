@@ -1,0 +1,15 @@
+To set up EJS in our Express backend:
+
+1. Install EJS:
+we install the ejs package from npm. It is a third-party module.
+
+2. Set View Engine:
+In our main app file, we tell Express that we are using EJS as our view engine. we also tell Express where our view files are located, usually in a folder named views.
+
+3. Create Views Folder:
+we create a views folder in your project root. Inside it, we create .ejs files. These files look like normal HTML but can include embedded JavaScript for dynamic data.
+
+4. Render from Route:
+In our route, instead of sending res.send() or res.json(), we use res.render(). we pass the name of the ejs file and the data object we want to display in that page.
+
+Once this is done, Express will automatically find the ejs file, merge it with our data, and send the final HTML to the browser.
